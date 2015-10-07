@@ -11,22 +11,29 @@ def writearray(a, filename):
 
 def construct_nodes(csv_object):
 	count = dict_count_author_mail(csv_object)
-	a = []
+	a = [['Id', 'Author', 'Weight']]
 	index = 1
 	for author in count:
 		a.append([index, author, count[author]])
 		index +=1
-	return [['Id', 'Author', 'Count']]+a
+	return a
+
+def construct_edges(csv_object, ids):
+	d = dict_exchanges(csv_object)
+	a = [['Source', 'Target', 'Weight']]
+	for exchange in d:
+		author1 = ids[exchange[0]]
+		author2 = ids[exchange[1]]
+		count = d[exchange]
+		a.append([author1, author2, count])
+	return a
 
 """ construct dict of author => id from nodes """
 def dict_authors_id(nodes):
 	d = {}
 	for n in nodes:
 		d[n[1]] = n[0]
-
-def construct_edges(csv_object):
-	d = dict_exchanges(csv_object)
-	a = ['Source', 'Target', 'Count']
+	return d
 
 """ use this to count the number of mail per author """
 def dict_count_author_mail(csv_object):
@@ -67,7 +74,7 @@ def dict_exchanges(csv_object):
 	return exchanges
 
 def get_csv_raw(inputfilename):
-	fieldnames = ['Id', 'New', 'Subject', 'Author']
+	fieldnames = ['New', 'Subject', 'Author']
 	return get_csv(inputfilename, fieldnames)
 
 """ opens a csv """
@@ -75,7 +82,10 @@ def get_csv(inputfilename, fieldnames):
 	csv.register_dialect('inputcsvdialect', delimiter=',', quoting=csv.QUOTE_ALL, quotechar="'")
 	inputfile = open(inputfilename, 'r', newline='')
 	reader = csv.DictReader(inputfile, fieldnames=fieldnames, dialect='inputcsvdialect')
-	return reader
+	l = []
+	for row in reader:
+		l.append(dict(row))
+	return l
 
 if __name__ == '__main__':
 	inputfilename = None
@@ -86,8 +96,8 @@ if __name__ == '__main__':
 		inputfilename = sys.argv[1]
 		data = get_csv_raw(inputfilename)
 		n = construct_nodes(data)
-		e = construct_edges(data)
-
+		ids = dict_authors_id(n)
+		e = construct_edges(data, ids)
 
 	if len(sys.argv) >= 3:
 		outputfilename = sys.argv[2]
