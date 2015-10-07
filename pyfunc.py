@@ -74,7 +74,7 @@ def dict_exchanges(csv_object):
 	return exchanges
 
 def get_csv_raw(inputfilename):
-	fieldnames = ['New', 'Subject', 'Author']
+	fieldnames = ['Date','New', 'Subject', 'Author']
 	return get_csv(inputfilename, fieldnames)
 
 """ opens a csv """
