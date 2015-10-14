@@ -8,7 +8,7 @@ function tocsv {
 	#echo "exec:$EXECJS"
 
 	# convert html table to csv, remove 'Re: ' from mails
-	cat "$1" | grep -i -e '</\?TABLE\|</\?TD\|</\?TR\|</\?TH' | sed 's/^[\ \t]*//gI' | tr -d '\n' | sed 's/<\/TR[^>]*>/\n/gI'  | sed 's/<\/\?\(TABLE\|TR\)[^>]*>//gI' | sed 's/^<T[DH][^>]*>\|<\/\?T[DH][^>]*>$//gI' | sed 's/<\/T[DH][^>]*><T[DH][^>]*>/'"','"'/gI' | sed 's/<[^>]*>//g' | sed "s/^/'/g" | sed "s/$/'/g" | grep "^' '\|^'\[New\]'" | sed 's/"//g' | sed 's/Re: //g' | "$EXECJS" "$1" >> $2
+	cat "$1" | grep -i -e '</\?TABLE\|</\?TD\|</\?TR\|</\?TH' | sed 's/^[\ \t]*//gI' | tr -d '\n' | sed 's/<\/TR[^>]*>/\n/gI'  | sed 's/<\/\?\(TABLE\|TR\)[^>]*>//gI' | sed "s/'//g" | sed "s/,//g" | sed 's/^<T[DH][^>]*>\|<\/\?T[DH][^>]*>$//gI' | sed 's/<\/T[DH][^>]*><T[DH][^>]*>/'"','"'/gI' | sed 's/<[^>]*>//g' | sed "s/^/'/g" | sed "s/$/'/g" | grep "^' '\|^'\[New\]'" | sed 's/"//g' | sed 's/Re: //g' | "$EXECJS" "$1" >> $2
 
 	#echo "DIR:$DIR" 
 	#"$DIR/toDate.js" "$2.temp" "$2"
