@@ -2,6 +2,7 @@
 
 import csv
 import sys
+from companies import companies
 
 """ use this to write an array as a csv compatible with gephi """
 def writearray(a, filename):
@@ -11,13 +12,19 @@ def writearray(a, filename):
 
 def construct_nodes(csv_object):
 	count = dict_count_author_mail(csv_object)
-	a = [['Id', 'Author', 'Weight']]
+	a = [['Id', 'Author', 'Company', 'Weight']]
 	index = 1
 	nr = len(count)
 	for author in count:
 		print(str(index*100/nr)+"%("+str(index)+"/"+str(nr)+")", end="\r")
 		index += 1
-		a.append([index, author, count[author]])
+		company = ""
+		try:
+			company = companies[author]
+		except KeyError:
+			pass
+		
+		a.append([index, author, company, count[author]])
 	print("")
 	return a
 

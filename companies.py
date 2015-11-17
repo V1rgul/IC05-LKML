@@ -1,4 +1,3 @@
-
 companies = {
 	"Greg Kroah-Hartman"		: "Linux Foundation",
 	"Kamal Mostafa"				: "Canonical",
@@ -31,7 +30,7 @@ companies = {
 	"Linus Walleij"				: "Linaro",
 	"Kirill A. Shutemov"		: "Intel",
 	"Ben Hutchings"				: "Debian",
-	"Linus Torvalds"			: "Linux Foundation"
+	"Linus Torvalds"			: "Linux Foundation",
 	"Liu Jiang"					: "Huawei",
 	"Oleg Nesterov"				: "Red Hat",
 	"Alexandre Belloni"			: "Free Elcetrons",
