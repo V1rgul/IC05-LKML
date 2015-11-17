@@ -1,0 +1,68 @@
+companies = {
+	"Greg Kroah-Hartman"		: "Linux Foundation",
+	"Kamal Mostafa"				: "Canonical",
+	"Arnaldo Carvalho de Melo"	: "Red hat",
+	"Luis Henriques"			: "Canonical",
+	"Peter Zijlstra"			: "Red Hat",
+	"Ingo Molnar"				: "Red Hat",
+	"Andy Lutomirski"			: "AMA Capital Managment",
+	"Steven Rostedt"			: "Red Hat",
+	"Lee Jones"					: "Linaro",
+	"Tejun Heo" 				: "Facebook",
+	"Mark Brown"				: "Linaro",
+	"Jiri Slaby"				: "",
+	"Krzysztof Kozlowski"		: "Samsung",
+	"Borislav Petkov"			: "SUSE",
+	"Guenter Roeck"				: "Juniper Networks",
+	"Jiri Olsa"					: "Red Hat",
+	"Rafael J. Wysocki"			: "Intel",
+	"Paul E. PcKenney"			: "IBM",
+	"Thomas Gleixner"			: "Red Hat",
+	"Stephen Boyd"				: "Qualcomm",
+	"Greg KH"					: "Linux Foundation",
+	"Joe Perches"				: "",
+	"Stephen Rothwell"			: "",
+	"Arnd Bergmann"				: "Linaro",
+	"Wang Nan"					: "Huawei",
+	"Sudip Mukherjee"			: "Vector India",
+	"Geert Uytterhoeven"		: "Glider",
+	"Javier Martinez Canillas"	: "Samsung",
+	"Linus Walleij"				: "Linaro",
+	"Kirill A. Shutemov"		: "Intel",
+	"Ben Hutchings"				: "Debian",
+	"Linus Torvalds"			: "Linux Foundation",
+	"Liu Jiang"					: "Huawei",
+	"Oleg Nesterov"				: "Red Hat",
+	"Alexandre Belloni"			: "Free Elcetrons",
+	"Viresh Kumar"				: "Linaro",
+	"Lus R. Rodriguez"			: "SUSE",
+	"Dan Williams"				: "Intel",
+	"Pavel Machek"				: "",
+	"Andrew Morton"				: "Google",
+	"Christoph Hellwig"			: "",
+	"Dmitry Torokhov"			: "Google",
+	"Micheal S. Tsrkin"			: "Red Hat",
+	"Paolo Bonzini"				: "GNU",
+	"Al Viro"					: "",
+	"Namhyung Kim"				: "LG",
+	"lizf@kernel ..."			: "",
+	"Paul Bolle"				: "Tiscali",
+
+
+
+	"Sasha Levin"				: "Oracle",
+	"Aleksa Sarai"				: "University of Sydney",
+	"Alexei Starovoitov"		: "PLUMgrid",
+	"Frank Rowand"				: "Sony",
+	"Jan Kara"					: "SUSE",
+	"Masami Hiramatsu"			: "Hitachi",
+	"He Kuang"					: "IBM",
+	"David Ahern"				: "Cumulus Networks",
+	"Andi Kleen"				: "Intel"
+
+
+}
+
+replacement = {
+	"Greg KH" 					: "Greg Kroah-Hartman"
+}
