@@ -60,39 +60,40 @@ companies = {
 	"Sergey Senozhatsky"		: "Samsung",	#540
 	"Marc Zyngier"				: "ARM",	#531
 	"Dave Hansen"				: "Intel",	#520
-	"Will Deacon"				: "",	#496
-	"Adrian Hunter"				: "",	#493
-	"Richard Weinberger"		: "",	#484
-	"Bjorn Helgaas"				: "",	#481
-	"Maxime Ripard"				: "",	#479
-	"Robert Baldyga"			: "",	#468
-	"Mateusz Kulikowski"		: "",	#468
-	"Masami Hiramatsu"			: "",	#467
-	"Sascha Hauer"				: "",	#466
+	"Will Deacon"				: "ARM",	#496
+	"Adrian Hunter"				: "Intel",	#493
+	"Richard Weinberger"		: "Sigma Star GMBH",	#484
+	"Bjorn Helgaas"				: "Google",	#481
+	"Maxime Ripard"				: "Free Electrons",	#479
+	"Robert Baldyga"			: "Samsung",	#468
+	"Mateusz Kulikowski"		: "Samsung",	#468
+	"Masami Hiramatsu"			: "Hitachi",	#467
+	"Sascha Hauer"				: "Pengutronix",	#466
 	"Peter Hurley"				: "",	#462
-	"Hanjun Guo"				: "",	#462
-	"Jonathan Cameron"			: "",	#461
-	"Boris Brezillon"			: "",	#460
-	"Roger Quadros"				: "",	#454
-	"Kishon Vijay Abraham I"	: "",	#443
-	"Michael Ellerman"			: "",	#439
-	"Ian Abbott"				: "",	#435
-	"Tony Lindgren"				: "",	#434
-	"Andi Kleen"				: "",	#433
-	"Vlastimil Babka"			: "",	#431
-	"Herbert Xu"				: "",	#429
-	"Brian Norris"				: "",	#425
-	"Alexei Starovoitov"		: "",	#414
-	"Pali Rohár"				: "",	#409
-	"Nicholas Mc Guire"			: "",	#409
-	"K. Y. Srinivasan"			: "",	#409
-	"Felipe Balbi"				: "",	#409
-	"Srinivas Kandagatla"		: "",	#408
-	"John Stultz"				: "",	#408
-	"Mel Gorman"				: "",	#407
-	"Andy Shevchenko"			: "",	#407
-	"Yijing Wang"				: "",	#404
-	"Julia Lawall"				: "",	#401
+	"Hanjun Guo"				: "Huawei",	#462
+	"Jonathan Cameron"			: "Campbridge",	#461
+	"Boris Brezillon"			: "Free electrons",	#460
+	"Roger Quadros"				: "Intel",	#454
+	"Kishon Vijay Abraham I"	: "Texas Instruments",	#443
+	"Michael Ellerman"			: "IBM",	#439
+	"Ian Abbott"				: "MEV",	#435
+	"Tony Lindgren"				: "Texas Instruments",	#434
+	"Andi Kleen"				: "Intel",	#433
+	"Vlastimil Babka"			: "SUSE",	#431
+	"Herbert Xu"				: "Red Hat",	#429
+	"Brian Norris"				: "Broadcom",	#425
+	"Alexei Starovoitov"		: "PLUMgrid",	#414
+	"Pali Rohár"				: "Texas Instruments",	#409
+	"Nicholas Mc Guire"			: "OpenTech EDV",	#409
+	"K. Y. Srinivasan"			: "Microsoft",	#409
+	"Felipe Balbi"				: "Texas Instruments",	#409
+	"Srinivas Kandagatla"		: "Linaro",	#408
+	"John Stultz"				: "Linaro",	#408
+	"Mel Gorman"				: "Freelance",	#407
+	"Andy Shevchenko"			: "Intel",	#407
+	"Yijing Wang"				: "Huawei",	#404
+	"Julia Lawall"				: "Inria",	#401
+
 	"Mark Rutland"				: "ARM",	#399
 	"Daniel Lezcano"			: "Linaro",	#397
 	"David Howells"				: "Red Hat",	#393
