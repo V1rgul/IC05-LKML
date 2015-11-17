@@ -9,8 +9,7 @@ var byline = require('readline-stream');
 
 (function(){
 	//we need a node version >=4
-	var pkg = require('./package'),
-		semver = require('semver');
+	var pkg = require('./package'), semver = require('semver');
 
 	if(!semver.satisfies(process.version, pkg.engines.node)) {
 		throw new Error('Requires a node version matching ' + pkg.engines.node);
