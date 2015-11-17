@@ -93,54 +93,54 @@ companies = {
 	"Andy Shevchenko"			: "",	#407
 	"Yijing Wang"				: "",	#404
 	"Julia Lawall"				: "",	#401
-	"Mark Rutland"	: "",	#399
-	"Daniel Lezcano"	: "",	#397
-	"David Howells"	: "",	#393
-	"Josh Poimboeuf"	: "",	#387
-	"Toshi Kani"	: "",	#384
-	"Nicolas Ferre"	: "",	#382
-	"Jacek Anaszewski"	: "",	#375
-	"Joerg Roedel"	: "",	#367
-	"Thierry Reding"	: "",	#361
-	"Catalin Marinas"	: "",	#357
-	"Wolfram Sang"	: "",	#352
-	"Jiri Kosina"	: "",	#351
-	"Shuah Khan"	: "",	#348
-	"Robert Jarzmik"	: "",	#348
-	"Jens Axboe"	: "",	#346
-	"Alexey Kardashevskiy"	: "",	#342
-	"Frederic Weisbecker"	: "",	#340
-	"Stefan Agner"	: "",	#336
-	"NeilBrown"	: "",	#333
-	"Ray Jui"	: "",	#331
-	"Charles Keepax"	: "",	#329
-	"Davidlohr Bueso"	: "",	#328
-	"Takashi Iwai"	: "",	#326
-	"Sudeep Holla"	: "",	#321
-	"Maxime Coquelin"	: "",	#319
-	"Kees Cook"	: "",	#318
-	"David Rientjes"	: "",	#318
-	"Bjorn Andersson"	: "",	#314
-	"SF Markus Elfring"	: "",	#312
-	"Michael Wang"	: "",	#308
-	"Chao Yu"	: "",	#306
-	"Minchan Kim"	: "",	#304
-	"Ming Lei"	: "",	#303
-	"Sasha Levin"	: "",	#297
-	"Jaegeuk Kim"	: "",	#297
-	"Wanpeng Li"	: "",	#295
-	"Rasmus Villemoes"	: "",	#294
-	"Rickard Strandqvist"	: "",	#292
-	"Rik van Riel"	: "",	#288
-	"Fabian Frederick"	: "",	#288
-	"Mike Galbraith"	: "",	#287
-	"Darren Hart"	: "",	#281
-	"Jan Kara"	: "",	#278
-	"Antoine Tenart"	: "",	#278
-	"Andrey Ryabinin"	: "",	#276
-	"Joonsoo Kim"	: "",	#272
-	"Stephan Mueller"	: "",	#271
-	"David Vrabel"	: "",	#270
+	"Mark Rutland"				: "ARM",	#399
+	"Daniel Lezcano"			: "Linaro",	#397
+	"David Howells"				: "Red Hat",	#393
+	"Josh Poimboeuf"			: "Red Hat",	#387
+	"Toshi Kani"				: "HP",	#384
+	"Nicolas Ferre"				: "Atmel",	#382
+	"Jacek Anaszewski"			: "Samsung",	#375
+	"Joerg Roedel"				: "SUSE",	#367
+	"Thierry Reding"			: "NVIDIA",	#361
+	"Catalin Marinas"			: "ARM",	#357
+	"Wolfram Sang"				: "Freelance",	#352
+	"Jiri Kosina"				: "SUSE",	#351
+	"Shuah Khan"				: "Samsung",	#348
+	"Robert Jarzmik"			: "Intel",	#348
+	"Jens Axboe"				: "Facebook",	#346
+	"Alexey Kardashevskiy"		: "IBM",	#342
+	"Frederic Weisbecker"		: "Red Hat",	#340
+	"Stefan Agner"				: "Toradex",	#336
+	"NeilBrown"					: "SUSE",	#333
+	"Ray Jui"					: "Broadcom",	#331
+	"Charles Keepax"			: "Cirrus Logic",	#329
+	"Davidlohr Bueso"			: "SUSE",	#328
+	"Takashi Iwai"				: "SUSE",	#326
+	"Sudeep Holla"				: "ARM",	#321
+	"Maxime Coquelin"			: "Philips",	#319
+	"Kees Cook"					: "Google",	#318
+	"David Rientjes"			: "Google",	#318
+	"Bjorn Andersson"			: "Hitachi",	#314
+	"SF Markus Elfring"			: "",	#312
+	"Michael Wang"				: "",	#308
+	"Chao Yu"					: "Motorola",	#306
+	"Minchan Kim"				: "LG",	#304
+	"Ming Lei"					: "Canonical",	#303
+	"Sasha Levin"				: "Oracle",	#297
+	"Jaegeuk Kim"				: "FutureWei",	#297
+	"Wanpeng Li"				: "Kingsoft",	#295
+	"Rasmus Villemoes"			: "",	#294
+	"Rickard Strandqvist"		: "Sony",	#292
+	"Rik van Riel"				: "Red Hat",	#288
+	"Fabian Frederick"			: "Skynet",	#288
+	"Mike Galbraith"			: "",	#287
+	"Darren Hart"				: "Intel",	#281
+	"Jan Kara"					: "SUSE",	#278
+	"Antoine Tenart"			: "Free Electrons",	#278
+	"Andrey Ryabinin"			: "Odin",	#276
+	"Joonsoo Kim"				: "LG",	#272
+	"Stephan Mueller"			: "",	#271
+	"David Vrabel"				: "",	#270
 	"Vitaly Kuznetsov"	: "",	#269
 	"Daniel Thompson"	: "",	#266
 	"Christoph Lameter"	: "",	#266
