@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+echo "companies = {" > $2
+./sortByMails $1 | sed -e "s/ *\([[:digit:]]\+\) '\([^']*\)'/	\"\2\":	\"\",	#\1/g" >> $2
+echo "}" >> $2

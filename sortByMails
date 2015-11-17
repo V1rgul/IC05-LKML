@@ -1,1 +1,2 @@
-sed -e "s/\(\('[^,]*'\),\)\{3\}\('[^,]*'\)/\3/g" | sort | uniq -ci | sort -nr
+#!/usr/bin/env sh
+cat $1 | sed -e "s/\(\('[^,]*'\),\)\{3\}\('[^,]*'\)/\3/g" | sort | uniq -ci | sort -nr
